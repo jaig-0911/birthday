@@ -477,6 +477,14 @@ section {
   font-weight: 700;
   color: #4e4039;
 }
+#added_about {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  position: relative;
+  font-size: 32px;
+  font-weight: 700;
+  color: #4e4039;
+}
 
 .section-title p::after {
   content: '';
@@ -488,6 +496,39 @@ section {
   bottom: 0;
   left: calc(50% - 30px);
 }
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts {
+  padding: 30px 0;
+}
+
+.counts .counters span {
+  font-size: 48px;
+  display: block;
+  color: #5fcf80;
+  font-weight: 700;
+}
+
+.counts .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #37423b;
+}
+
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #f6f7f6;
+}
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -580,6 +621,21 @@ section {
   }
 }
 
+#relation{
+  font-size: 17px;
+  margin-bottom: 20px;
+  color: #5a6570;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#apology_para{
+  font-size: 17px;
+  margin-bottom: 20px;
+  color: #5a6570;
+  text-align: center;
+  padding-bottom: 100px;
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -626,6 +682,8 @@ section {
   line-height: 28px;
   margin-bottom: 0;
 }
+
+
 
 /*--------------------------------------------------------------
 # Portfolio
