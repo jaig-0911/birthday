@@ -476,6 +476,7 @@ section {
   font-size: 32px;
   font-weight: 700;
   color: #4e4039;
+  text-align: center;
 }
 #added_about {
   padding-bottom: 15px;
@@ -640,6 +641,14 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+#imp{
+  text-align: center;
+}
+
+#imp span{
+  font-size: 20px;
+  font-weight:20px
+}
 .services{
   margin:10%;
 }
@@ -1003,7 +1012,7 @@ section {
 .team .member .member-info-content span {
   font-style: italic;
   display: block;
-  font-size: 13px;
+  font-size: 11px;
   color: #fff;
 }
 
