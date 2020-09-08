@@ -1441,9 +1441,9 @@ section {
 }
 
 #footer .credits {
-  float: right;
+  float: center;
   text-align: center;
-  font-size: 13px;
+  font-size: 15px;
   color: #212529;
 }
 
